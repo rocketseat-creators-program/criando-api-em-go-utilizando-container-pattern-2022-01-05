@@ -1,6 +1,6 @@
 package structs
 
-type Reponse struct {
+type Response struct {
 	Data string `json:"data"`
 	Tag  string `json:"tag,omitempty"`
 }
